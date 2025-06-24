@@ -18,10 +18,10 @@ This project includes a clean menu layout built using HTML and CSS, along with a
 ##  Features
 
 -  Attractive visual layout for healthy meals
--  Special menu section with dish names and prices
--  Custom logo and branding
+-  Special menu section with dish names 
+-  Custom logo 
 -  Ready for printing or website integration
--  Mobile-responsive HTML version included
+-  HTML version included
 
 | Purpose                 | Language / Tool          | Description                                                                          |
 | ----------------------- | ------------------------ | ------------------------------------------------------------------------------------ |
