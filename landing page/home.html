@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthyBite - Eat Fresh, Live Healthy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #2d2d2d;
+    }
+    header {
+      background-color: #ea4949;
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      background: url('background.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .hero-text {
+      max-width: 45%;
+      background-color: #ea4949;
+      padding: 30px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .menu-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #e84f28;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(208, 65, 25, 0.3);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      width: fit-content;
+    }
+
+    .menu-button:hover {
+      transform: scale(1.05);
+      background-color: #23e453;
+      color: #121212;
+    }
+
+    .hero img {
+      width: 400px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background-color:#ea4949;
+      color: white;
+      text-align: right;
+      padding: 15px 30px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HealthyBite</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="feature.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Eat Fresh, Live Healthy</h2>
+      <p>At HealthyBite, we believe that eating well is the first step to living well. Discover a range of nutritious meals tailored to your lifestyle.</p>
+      <a class="menu-button" href="menucard.jpg" target="_blank">View Menu</a>
+    </div>
+   
+  </section>
+
+  <footer>
+    <p>Page | 01</p>
+  </footer>
+
+</body>
+</html>

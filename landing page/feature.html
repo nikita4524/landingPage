@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthyBite - Features</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #2d2d2d;
+    }
+
+    header {
+      background-color: #ea4949;
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .features-wrapper {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .features-wrapper h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #d32f2f;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      justify-items: center;
+    }
+
+    .feature-card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 300px;
+      padding-top: 60px; /* space for image */
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px; 
+}
+
+    .feature-card .content {
+      padding: 20px;
+    }
+
+    .feature-card h3 {
+      font-size: 20px;
+      color: #ea4949;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+
+    .feature-card p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #ea4949;
+      color: white;
+      text-align: right;
+      padding: 15px 30px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HealthyBite</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="feature.html">Features</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="features-wrapper" id="features">
+    <h2>Our Top Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="f1.jpg" alt="Feature 1">
+        <div class="content">
+          <h3>Custom Diet Plans</h3>
+          <p>Tailored diet plans that fit your goals, body type, and lifestyle preferences.</p>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <img src="f2.webp"Feature 2">
+        <div class="content">
+          <h3>Nutritionist Support</h3>
+          <p>Talk to certified experts for continuous guidance and healthy habit formation.</p>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <img src="f3.jpg" alt="Feature 3">
+        <div class="content">
+          <h3>Smart Grocery Lists</h3>
+          <p>Auto-generate shopping lists based on your weekly health meal plans.</p>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <img src="f4.webp" alt="Feature 4">
+        <div class="content">
+          <h3>Healthy Recipes</h3>
+          <p>Access 500+ easy, tasty, and nutrient-rich recipes for every mood and season.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Page | 03</p>
+  </footer>
+
+</body>
+</html>
