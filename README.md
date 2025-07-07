@@ -30,7 +30,7 @@ This project includes a clean menu layout built using HTML and CSS, along with a
 |  Menu Design Template | **Graphic/Image**        | Created as a **.png** image, using a **design tool** (like Canva, Figma, Photoshop). |
 | Documentation        | **Markdown (README.md)** | For project documentation (README on GitHub or local).                               |
 
-
+<img width="1919" height="1010" alt="Image" src="https://github.com/user-attachments/assets/5005b9d3-eb27-4f46-9d5d-dcf5a5b16350" />
 
 
 
