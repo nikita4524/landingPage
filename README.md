@@ -1,7 +1,7 @@
 #  HealthyBite - Landing Page
 
 ##  Developed By
-**Nikita Patil**  
+**Nikita Patil and janhavi marathe**  
 Computer Engineering Student  
 
 
