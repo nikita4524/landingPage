@@ -35,7 +35,4 @@ http://localhost:8000
 - `script.js` - food data, cart logic, bill preview, and menu rendering
 - `img/` - branding and food images
 
-## Notes
 
-- The site is static and does not require any package installation.
-- The branding is updated to **healthyBite**.
