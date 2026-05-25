@@ -1,33 +1,41 @@
-#  HealthyBite - Landing Page
+# HealthyBite
 
-##  Developed By
-**Nikita Patil**  
-Computer Engineering Student  
+HealthyBite is a food-ordering website built with HTML, CSS, and JavaScript.
 
+## Whatâ€™s included
 
-Welcome to the **HealthyBite** Landing Page. This is a modern, visually appealing menu design tailored for a healthy food brand offering nutritious and tasty meals
+- Home page with a hero section and featured food cards
+- Menu page with category filtering
+- About page
+- Contact page
+- Cart and checkout flow
+- Bill preview and download support
 
----
+## Run locally
 
-##  Project Overview
+Open `index.html` directly, or serve the project with a local web server:
 
-This project includes a clean menu layout built using HTML and CSS, along with a graphic-based menu card for showcasing featured dishes. It’s designed for restaurants, cafes, or startups focusing on healthy eating.
+```powershell
+python -m http.server 8000
+```
 
----
+Then open:
 
-##  Features
+```text
+http://localhost:8000
+```
 
--  Attractive visual layout for healthy meals
--  Special menu section with dish names 
--  Custom logo 
--  Ready for printing or website integration
--  HTML version included
+## Project structure
 
-| Purpose                 | Language / Tool          | Description                                                                          |
-| ----------------------- | ------------------------ | ------------------------------------------------------------------------------------ |
-|  Web Page Structure   | **HTML**                 | To create the structure of the menu page (headings, images, text, links).            |
-|  Styling & Layout     | **CSS**                  | To design the look: colors, fonts, layout, hover effects, responsiveness.            |
-|  Menu Design Template | **Graphic/Image**        | Created as a **.png** image, using a **design tool** (like Canva, Figma, Photoshop). |
-| Documentation        | **Markdown (README.md)** | For project documentation (README on GitHub or local).                               |
+- `index.html` - homepage
+- `menu.html` - food menu
+- `about.html` - brand story
+- `contact.html` - contact form and info
+- `style.css` - styling
+- `script.js` - food data, cart logic, bill preview, and menu rendering
+- `img/` - branding and food images
 
-<img width="1919" height="1010" alt="Image" src="https://github.com/user-attachments/assets/5005b9d3-eb27-4f46-9d5d-dcf5a5b16350" />
+## Notes
+
+- The site is static and does not require any package installation.
+- The branding is updated to **healthyBite**.
