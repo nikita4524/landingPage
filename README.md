@@ -1,7 +1,7 @@
 #  HealthyBite - Landing Page
 
 ##  Developed By
-**Nikita Patil and janhavi marathe**  
+**Nikita Patil**  
 Computer Engineering Student  
 
 
@@ -11,7 +11,7 @@ Welcome to the **HealthyBite** Landing Page. This is a modern, visually appealin
 
 ##  Project Overview
 
-This project includes a clean menu layout built using HTML and CSS, along with a graphic-based menu card for showcasing featured dishes. Itâ€™s designed for restaurants, cafes, or startups focusing on healthy eating.
+This project includes a clean menu layout built using HTML and CSS, along with a graphic-based menu card for showcasing featured dishes. It’s designed for restaurants, cafes, or startups focusing on healthy eating.
 
 ---
 
@@ -25,12 +25,9 @@ This project includes a clean menu layout built using HTML and CSS, along with a
 
 | Purpose                 | Language / Tool          | Description                                                                          |
 | ----------------------- | ------------------------ | ------------------------------------------------------------------------------------ |
-|  Web Page Structure   | **HTML**                 | To create the structure of the menu page (headings, images, text, links).            
+|  Web Page Structure   | **HTML**                 | To create the structure of the menu page (headings, images, text, links).            |
 |  Styling & Layout     | **CSS**                  | To design the look: colors, fonts, layout, hover effects, responsiveness.            |
 |  Menu Design Template | **Graphic/Image**        | Created as a **.png** image, using a **design tool** (like Canva, Figma, Photoshop). |
 | Documentation        | **Markdown (README.md)** | For project documentation (README on GitHub or local).                               |
 
 <img width="1919" height="1010" alt="Image" src="https://github.com/user-attachments/assets/5005b9d3-eb27-4f46-9d5d-dcf5a5b16350" />
-
-
-
